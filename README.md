@@ -9,6 +9,14 @@ This repository contains code and resources for a computational neuroscience res
 - Code: Python scripts and Jupyter notebooks used for data preprocessing, feature extraction, model training, and evaluation.
 - Data: The dataset can be found here: https://osf.io/srpbg/
 - Results: Detailed results, including performance metrics, visualizations, and analysis outputs can be found in the jupyter notebooks
+## Experiments
+### EEG Analysis Baseline:
+The baseline model includes five sets of features: the relative powers for all channels, all regions, statistically significant channels, all source labels, and statistically significant source labels.
+### EEG Analysis 1: 
+With 1/f noise reduction
+### EEG Analysis 2:
+With 1/f noise as features
+
 ## Getting Started
 To replicate or build upon this research, follow these steps:
 1. Download the public dataset
